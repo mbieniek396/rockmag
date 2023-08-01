@@ -393,7 +393,7 @@ def draw(SM_X,C_X,PM_X,BGM_X, F_X, options, ranking, doptions):
                 screen.blit(another, (x, y+d*i))
                 screen.blit(score, (x+x, y+d*i))
         elif s.about:
-            lost_lower_text = LOST_FONT.render("Author is Zosia Polak", 1, s.BLUE)
+            lost_lower_text = LOST_FONT.render("Author is me", 1, s.BLUE)
             x = s.SCREEN_WIDTH/2-lost_lower_text.get_width()/2
             d = lost_lower_text.get_height()+20
             y = s.SCREEN_HEIGHT/2-d
